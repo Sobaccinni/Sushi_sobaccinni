@@ -1,0 +1,42 @@
+  <!-- <?php
+            // Подключение к базе данных
+            $host = 'localhost'; // ваш хост
+            $db = 'sushi_Votyakov'; // имя вашей базы данных
+            $user = 'root'; // ваше имя пользователя
+            $pass = ''; // ваш пароль
+
+            $mysqli = new mysqli($host, $user, $pass, $db);
+
+            // Проверка соединения
+            if ($mysqli->connect_error) {
+                die("Connection failed: " . $mysqli->connect_error);
+            }
+
+            // Запрос к БД для получения всех позиций товаров
+            $sql = "SELECT `id`, `name`, `description`, `weight`, `price`, `img` FROM `product` WHERE 1";
+            $result = $mysqli->query($sql);
+
+            // Проверяем, есть ли результаты
+            if ($result->num_rows > 0) {
+                // Вывод позиций товаров
+                while ($row = $result->fetch_assoc()) {
+                    echo '<div class="main__row_elem">';
+                    echo '<img src="' . htmlspecialchars($row['img']) . '" alt="">';
+                    echo '<div class="main__row_elem_top">';
+                    echo '<p style="font-weight: 600;">' . htmlspecialchars($row['name']) . '</p>';
+                    echo '<p>' . htmlspecialchars($row['weight']) .  'г</p>';
+                    echo '</div>';
+                    echo '<p>' . htmlspecialchars($row['description']) . '</p>';
+                    echo '<div class="main__row_elem_bottom">';
+                    echo '<p>' . htmlspecialchars($row['price']) . 'p</p>';
+                    echo '<div class="main__row_elem_button"><a href="#">В корзину</a></div>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+            } else {
+                echo '<p>Нет доступных позиций.</p>'; // Сообщение если нет товаров
+            }
+
+            // Закрытие соединения
+            $mysqli->close();
+            ?> -->

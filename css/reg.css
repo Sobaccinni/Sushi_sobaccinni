@@ -1,0 +1,60 @@
+.reg_main__header h1{
+    text-align: center;
+    margin: 25px 0;
+}
+.reg_main__container {
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.reg_main__container p{
+font-size: 20px;
+}
+.reg_main__container .text{
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.submit{
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #F52341;
+    color: #ffffff;
+}
+.reg_form__submit{
+  margin:auto;
+  width: max-content;
+}
+.reg_main__header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: black;
+}
+.reg_main__header a{
+  color: black;
+}
+.reg_underline{
+  text-decoration-line: underline;
+}
+.reg_bottom{
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  gap: 20px;
+}
+.reg_link{
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: #F52341;
+  color: #ffffff;
+  border: 2px solid black;
+  text-align: center;
+}
