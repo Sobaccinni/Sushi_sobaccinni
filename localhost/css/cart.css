@@ -1,0 +1,16 @@
+﻿.cart_main__container {
+    display: flex;
+    max-width: 1090px;
+    margin: 0 auto;
+    margin-top: 3%;
+    flex-direction: column;
+    text-align: center;
+}
+.cart_main__img {
+    margin: 0 auto;;
+}
+.cart_main__container p{
+    font-size: 35px;  
+    margin-top: 50px;
+    font-weight: 500;
+}

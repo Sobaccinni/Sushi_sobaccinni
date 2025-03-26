@@ -1,0 +1,138 @@
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+h2{
+    margin: 20px 0; 
+}
+button{
+    cursor: pointer;
+}
+.admin_main__insert {
+    display: flex;
+    flex-direction: column;
+
+}
+.admin_insert__text {
+    width: 530px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 25px;
+}
+.admin_insert__text::placeholder{
+    color: black;
+    font-size: 16px;
+}
+.admin_insert__form{
+    display: flex;
+    max-width: 1090px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.admin_insert__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.admin_submit{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background: rgb(245, 35, 65);
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px;
+    width: 250px;
+}
+.admin_delete__text{
+    width: 530px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 25px;
+}
+.admin_main__delete{
+    display: flex;
+    flex-direction: column;
+}
+.admin_delete__form{
+    display: flex;
+    flex-direction: column;
+}
+.admin_delete__text::placeholder{
+    color: black;
+    font-size: 16px;
+}
+.admin_update__form{
+    margin: 20px 0;
+}
+h3{
+    margin: 20px 0; 
+}
+.admin_main__bottom {
+    max-width: 1090px;
+}
+.admin_main__bottom_top p{
+    margin-bottom: 10px;
+}
+.admin_main__bottom_bottom {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    max-width: 530px;
+    justify-content: space-between;
+}
+.admin_confirm {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background: rgb(75, 155, 98);
+    width: 250px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+.admin_decline {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background: rgb(245, 35, 65);
+    width: 250px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+.admin_main__bottom textarea{
+    border-radius: 5px; 
+    resize: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.admin_main__bottom textarea::placeholder{
+    color: #363636;
+    font-size: 20px;
+}
+@media (max-width: 320px) { 
+                    .admin_delete__text{
+                        width: 300px;
+                    }
+                    .admin_insert__text{
+                        width: 300px;
+                    }
+                    .admin_main__insert{
+                        align-items: center;
+                    }
+                    .admin_insert__form{
+                        justify-content: center;
+                    }
+                    .admin_insert__bottom{
+                        align-items: center;
+                    }
+                }

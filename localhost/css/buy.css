@@ -1,0 +1,38 @@
+.buy_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buy_user_data {
+    padding: 20px 0px;
+}
+.buy_user_data input{
+    padding: 8px 5px;
+    border-radius: 50px;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 10px;
+}
+.buy_buy_data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buy_choose {
+}
+.buy_choose_online {
+}
+.buy_online_select {
+}
+.buy_select_elem {
+}
+.buy_choose_offline {
+}
+.buy_offline_text {
+}
+.buy_bottom {
+}
+.buy_button {
+}

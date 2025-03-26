@@ -1,0 +1,14 @@
+﻿
+.about_main__container {
+    display: flex;
+    max-width: 1090px;
+    margin: 0 auto;
+    margin-top: 3%;
+    flex-direction: column;
+    text-align: center;
+}
+.about_main__container p{
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: 500;
+}
